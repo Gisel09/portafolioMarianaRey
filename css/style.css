@@ -1,0 +1,187 @@
+html {
+    box-sizing: border-box;
+}
+.root{
+    --primary-color:#800080;
+    --secondary-color:#000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background: url(../img/fondo\ 3\ 1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.sidebar{
+    background: rgba(0, 0, 0, 0.386);
+    height: 120vh;
+    
+}
+
+.sidebar ul li {
+margin-bottom: 30px ;
+
+
+}
+.sidebar ul li a {
+    text-decoration: none;
+    /* display: flex; */
+}
+.sidebar ul li a b {
+    color: #ffff;
+    background: #800080;
+    padding: 20px 10px;
+    width: 140px;
+    display: inline-block;
+}
+.sidebar ul li a :hover {
+    background-color: #2e012e;
+   
+}
+
+.hero h1 {
+   
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-family: 'Aboreto', cursive;
+    font-size: 300%;
+    
+    
+}
+.foto a {
+    margin-left: 12em;
+    
+}
+.numeros{
+    height: 130px;
+    object-fit: cover;
+    position: relative;
+}
+.info p {
+    text-align:center;
+    color: rgb(255, 255, 255);
+    position: center;
+}
+
+#perfil_profesional {
+    height: 1200px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#perfil_profesional img{
+    height: 500px;
+    width: 700px;
+    
+}
+#perfil_profesional h1{
+    
+    color: rgb(255, 255, 255);
+    background-color: #2e012e9a;
+}
+#perfil_profesional p {
+    
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+}
+#carousel{
+    padding-left: 5em;
+
+}
+.fotomariana{
+    margin-top: 2%;
+    margin-left: 3em;
+}
+#informacion_personal h1{
+    color: rgb(255, 255, 255);
+    background-color: rgba(205, 145, 220, 0.443);
+
+}
+#informacion_personal p {
+    color: #ffffff;
+}
+.tarjeta1{
+    background-color: #130313;
+    text-align: center;
+}
+.tarjeta1 p {
+    background-color: #1d0c24;
+    color: #ffffff;
+    text-align: center;
+
+}
+.tarjeta1 text{
+    text-align: center;
+    color: #ffffff;
+}
+.tarjeta2 {
+    background-color: #1d0c24;
+}
+.tarjeta2 p{
+    color: #ffffff;
+    text-align: center;
+}
+.card-direccion{
+    text-align: center;
+    color: #ffffff;
+}
+.card-infoD {
+    color: #ffffff;
+    background-color: #13031358;
+
+}
+.card-referencias{
+    color: #ffffff;
+    text-align: center;
+}
+.card-infoR{
+    color: #ffffff;
+    background-color: #13031344;
+}
+.card-referenciasL{
+    color: #ffffff;
+    text-align: center;
+}
+.card-infop{
+    color: #ffffff;
+    background-color: #13031357;
+}
+#contacto h1{
+    color: #ffffff;
+    text-align: center;
+
+}
+#contacto {
+    text-align: center; color: #ffffff;
+    background-color: #80008018;
+}
+#enviar{
+    background-color: #800080;
+    text-align: center; color: #ffffff;
+    
+}
+p{
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.235);
+    font-size: 25px;
+    
+}
+.heroI{
+    text-align: center;
+    background-color: #1d0c24;
+    color: #ffffff;
+    padding-top: 5em;
+}
+
